@@ -17,7 +17,7 @@ public class Text_Editor implements ActionListener {
        // create menubar
        menubar=new JMenuBar();
        textarea=new JTextArea();
-     textarea.setBounds(0,0,1700,1000);
+//     textarea.setBounds(0,0,1700,1000);
 //       textarea.setVisible(true);
 
        // created a menu options File & Edit
@@ -76,12 +76,13 @@ public class Text_Editor implements ActionListener {
 
 
 
-       frame.add(textarea);
+      // frame.add(textarea);
 
 
        frame.setBounds(100,100,500,500);
+         frame.setVisible(true);
        frame.setLayout(null);
-       frame.setVisible(true);
+    
 
 
 
